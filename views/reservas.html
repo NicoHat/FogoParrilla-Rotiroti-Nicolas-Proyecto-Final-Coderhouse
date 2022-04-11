@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="parrilla restaurant buenosAires Colegiales Belgrano comida delivery">
+    <title>Fogo Parrilla - Reservas</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-warning my-2 my-sm-0">
+                  <a class="text-black" href="reservas.html">RESERVAR</a>
+                </button>
+              </form>
+          </div>
+        </div>
+      </nav>
+    
+
+      <!-- MAIN -->
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-12 col-12 text-align-center">
+            <hr>
+            <h2>Reservas</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-12 mx-auto mt-3">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4">
+            </div>
+            <div class="col-lg-3 col-12 mx-auto mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email">
+            </div>
+            <div class="col-lg-3 col-12 mx-auto mt-3">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefono" data-rule="minlen:4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-12 mx-auto form-group mt-3">
+                <input type="text" name="date" class="form-control" id="date" placeholder="Fecha" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              </div>
+              <div class="col-lg-3 col-12 mx-auto form-group mt-3">
+                <input type="text" class="form-control" name="time" id="time" placeholder="Horario" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              </div>
+              <div class="col-lg-3 col-12 mx-auto form-group mt-3">
+                <input type="number" class="form-control" name="people" id="people" placeholder="Cantidad de personas" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              </div>
+        </div>
+        <div class="col-lg-11 col-12 mx-auto mt-3 py-4">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
+            <div class="validate"></div>
+        </div>
+        <div class="text-center py-4"><button class="btn btn-danger" type="submit">Reservar</button></div>
+      </div>
+
+
+
+
+      <!-- FOOTER -->
+
+      <footer class="text-center text-white" style="background-color: #45526e">
+        <div class="row mx-auto py-3">
+          <div class="col-lg-2 col-12 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-white">Fogo Parrilla</h4>
+            <p>
+              Fogo Parrilla te espera para disfrutar en familia, con amigos, compañeros de trabajo. Más de 17 años de trayectoria nos permiten acercarles una amplio menú para todos los gustos.
+            </p>
+          </div>
+          <div class="col-lg-2 col-12 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-white">Redes Sociales</h4>
+            <a href="http://www.facebook.com/" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.pinterest.com/" target="_blank" class="btn-social btn-pinterest"><i class="fa fa-pinterest"></i></a>
+            <br>
+            <a href="http://www.Instagram.com/" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a>
+            <a href="http://www.twitter.com/" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="col-lg-2 col-12 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contacto</h5>
+            <p>Colegiales Tel: 4487-8059</p>
+            <p>Belgrano Tel: 4620-9357</p>
+            <p>fogoparrilla@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
